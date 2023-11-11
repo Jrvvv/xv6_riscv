@@ -7,8 +7,8 @@
 // int pong();
 
 int main(int argc, char** argv) {
-  int ping_fd[2];
-  int pong_fd[2];
+  // int ping_fd[2];
+  // int pong_fd[2];
 
   exit(0);
 }
