@@ -91,3 +91,10 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+
+uint64
+sys_hello_world(void)
+{
+  printf("Hello world!\n");
+  return 0;
+}
